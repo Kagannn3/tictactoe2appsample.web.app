@@ -1,0 +1,49 @@
+[debug] [2023-08-01T09:22:20.003Z] ----------------------------------------------------------------------
+[debug] [2023-08-01T09:22:20.008Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\KAĞAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-08-01T09:22:20.008Z] CLI Version:   12.4.6
+[debug] [2023-08-01T09:22:20.009Z] Platform:      win32
+[debug] [2023-08-01T09:22:20.009Z] Node Version:  v18.12.1
+[debug] [2023-08-01T09:22:20.011Z] Time:          Tue Aug 01 2023 12:22:20 GMT+0300 (GMT+03:00)
+[debug] [2023-08-01T09:22:20.011Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-01T09:22:20.089Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-01T09:22:20.090Z] > authorizing via signed-in user (oguzkagankocak860@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\KAĞAN
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-01T09:22:26.224Z] Using project from CLI flag: tictactoe2appsample
+[debug] [2023-08-01T09:22:26.229Z] > refreshing access token with scopes: []
+[debug] [2023-08-01T09:22:26.238Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-01T09:22:26.238Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-01T09:22:26.684Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-01T09:22:26.684Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-01T09:22:26.703Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe2appsample [none]
+[debug] [2023-08-01T09:22:27.326Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe2appsample 200
+[debug] [2023-08-01T09:22:27.326Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe2appsample {"projectId":"tictactoe2appsample","projectNumber":"900981093087","displayName":"TicTacToe2AppSample","name":"projects/tictactoe2appsample","resources":{"hostingSite":"tictactoe2appsample"},"state":"ACTIVE","etag":"1_6cda3bbb-fb0b-4a9f-9715-6489e9ede24d"}
+[info] i  Using project tictactoe2appsample (TicTacToe2AppSample) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
